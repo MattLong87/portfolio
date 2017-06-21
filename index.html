@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Matthew Long | Full Stack Web Developer</title>
 	<link rel="stylesheet" type="text/css" href="css/reset.css">
@@ -7,11 +8,12 @@
 	<link href="https://fonts.googleapis.com/css?family=Gudea:400,700|Patua+One" rel="stylesheet">
 	<meta name="viewport" content="width=device-width">
 </head>
+
 <body>
 	<nav>
 		<ul>
-			<li>Projects</li>
 			<li>About</li>
+			<li>Projects</li>
 			<li>Contact</li>
 		</ul>
 	</nav>
@@ -19,31 +21,53 @@
 		<h1>Matthew Long</h1>
 		<h2 class="full-stack">full-stack</h2>
 		<h2>Web Developer</h2>
-		<section class="technologies">
+		<!--<section class="technologies">
 			<div class="icon-container"><img src="img/icons/html5.png" alt="HTML5" class="tech-icon"></div>
 			<div class="icon-container"><img src="img/icons/css3.png" alt="CSS3" class="tech-icon"></div>
 			<div class="icon-container"><img src="img/icons/react.png" alt="React" class="tech-icon"></div>
-		</section>
+		</section>-->
 	</header>
 	<main>
 		<section class="about">
-			<span class="section-title">About Me</span>
-			<p>I'm a web developer who is passionate about problem-solving. I love learning new technologies and applying them to real-world situations, figuring out how they work and how to make them work for me. I also care deeply about UI/UX - aesthetics and usablity are important to everything I work on.</p>
-			<p>Apart from coding, I love exploring the city of Raleigh - awesome new restaurants pop up every week! I also enjoy geocaching, virtual reality, and spending time with my dog Arden.</p>
+			<h3 class="section-title">About Me</h3>
+			<p>I'm a web developer who is passionate about problem-solving. I love learning new technologies and applying them to real-world
+				situations, figuring out how they work and how to make them work for me. I also care deeply about UI/UX - aesthetics
+				and usablity are important to everything I work on.</p>
+			<p>Apart from coding, I love exploring the city of Raleigh - awesome new places pop up every week! I also enjoy <a href="https://www.geocaching.com/play">geocaching</a>,
+				virtual reality, and spending time with my dog Arden.</p>
 		</section>
 		<section class="projects">
-		<span class="section-title">Projects</span>
-			<span class="project-title">WinRate</span>
-			<p class="project-description">WinRate is a full-stack application that allows users to journal their boardgaming sessions and view statistics for themselves and their friends. The frontend is a single-page React app, and is served by a backend REST API.</p>
-			<span class="project-title">ChronoMeal API</span>
-			<p class="project-description">Chronomeal allows people with chronic pain to record their meals and pain levels, so they or their doctor can look for trends over time. It was created in partnership with Johnathan Howell, who developed the frontend, while I produced a REST API to store and serve the users' data.</p>
-			<span class="project-title">Social Congress</span>
-			<p class="project-description">Social Congress provides a handy dashboard for checking out the Twitter feeds of your senators and representative. Using your browser's geolocation or a provided address, it accesses the Google Civic Information API and displays the Twitter timelines and buttons to easily send @-replys.</p>
+			<h3 class="section-title">Projects</h3>
+			<section class="winrate project">
+				<h4 class="project-title">WinRate</h4>
+				<p class="project-description">WinRate is a full-stack application that allows users to journal their boardgaming sessions and view statistics for themselves
+					and their friends. The frontend is a single-page React app, and is served by a backend REST API.</p>
+			</section>
+			<section class='chronomeal-api project'>
+				<h4 class="project-title">ChronoMeal API</h4>
+				<p class="project-description">Chronomeal allows people with chronic pain to record their meals and pain levels, so they or their doctor can look for
+					trends over time. It was created in partnership with <a href="https://github.com/drayvock/">Johnathan Howell</a>, who
+					developed the frontend, while I produced a REST API to store and serve the users' data.</p>
+			</section>
+			<section class="social-congress project">
+				<h4 class="project-title">Social Congress</h4>
+				<p class="project-description">Social Congress provides a handy dashboard for checking out the Twitter feeds of your senators and representative. Using
+					your browser's geolocation or a provided address, it accesses the Google Civic Information API and displays the Twitter
+					timelines and buttons to easily send @-replies.</p>
+			</section>
+		</section>
+		<section class="contact">
+			<h3 class="section-title">Contact</h3>
+			<ul class="contact-links">
+				<li><a href="mailto:mattlong87@gmail.com">MattLong87@gmail.com</a></li>
+				<li><a href="https://www.linkedin.com/in/matthew-long-a133a412/">LinkedIn</a></li>
+				<li><a href="http://www.github.com/mattlong87">GitHub</a></li>
+			</ul>
 		</section>
 	</main>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<script type="text/javascript" src="app.js"></script>
-<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
 </body>
+
 </html>

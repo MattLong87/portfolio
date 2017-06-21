@@ -4,24 +4,16 @@
 
 body{
     text-align: center;
+    font-family: 'Gudea', sans-serif;
     line-height: 1.5;
     background: #f9f2e7;
     color: #444;
-}
-
-p{
-    max-width: 600px;
-    display: inline-block;
-    font-family: 'Gudea', sans-serif;
-    font-size: 16pt;
 }
     
 nav{
     height: 70px;
     background: #99cc00;
     color: #fff;
-    font-family: 'Gudea', sans-serif;
-    font-size: 24pt;
     box-shadow: 0px 3px 25px 0px #555;
     position: relative;
     z-index: 1;
@@ -29,29 +21,31 @@ nav{
 
 nav li{
     display: inline;
-    margin: 0px 60px;
+    font-size: 22pt;
+    margin: 0px 10px;
     line-height: 70px;
     font-family: 'Patua One', cursive;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 header{
     background: #00a8c6;
-    height: 80vh;
+    height: 90vh;
     color: #fff;
     box-shadow: 0px 3px 25px 0px #333;
+    margin-bottom: -20px;
 }
 
 h1{
     font-family: 'Patua One', cursive;
-    font-size: 120pt;
-    padding: 100px 0px 70px;
+    font-size: 20vw;
+    padding: 80px 0px 70px;
     text-shadow: 0px 2px 5px #666;
+    line-height: 1;
 }
 
 h2{
-    font-family: 'Gudea', sans-serif;
-    font-size: 50pt;
+    font-size: 13vw;
 }
 
 .full-stack{
@@ -79,12 +73,49 @@ h2{
 }
 
 .section-title{
-    font-family: 'Gudea', sans-serif;
+    display: block;
     font-size: 36pt;
-    font-weight: bold;
-    border: 5px solid #444;
-    border-radius: 4px;
-    padding: 5px 15px;
-    margin-top: 30px;
+    background: #444;
+    color: #f9f2e7;
+    font-family: 'Patua One', cursive;  
+    margin: 20px 0px;
+}
+
+.project-title{
+    font-size: 28pt;
+    font-family: 'Patua One', cursive;
+}
+
+.project{
+    margin: 20px 0;
+}
+
+main p{
+    max-width: 600px;
     display: inline-block;
+    font-size: 16pt;
+    margin: 13px auto;
+    text-align: left;
+    padding: 0px 10px;
+}
+
+main p a{
+    text-decoration: none;
+    border-bottom: 1px dotted #444;
+    color: inherit;
+}
+
+@media only screen and (min-width: 820px){
+    nav li{
+        margin: 0px 60px;
+        font-size: 24pt;
+    }
+
+    h1{
+        padding: 100px 0px 70px;
+    }
+
+    header{
+        height: 80vh;
+    }
 }
