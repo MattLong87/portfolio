@@ -105,6 +105,24 @@ main p a{
     color: inherit;
 }
 
+.contact{
+    margin-bottom: 20px;
+}
+
+.contact-links{
+    font-size: 16pt;
+}
+
+.contact-links li{
+    margin-bottom: 10px;
+}
+
+.contact-links a{
+    font-weight: bold;
+    text-decoration: none;
+    color: inherit;
+}
+
 @media only screen and (min-width: 820px){
     nav li{
         margin: 0px 60px;
