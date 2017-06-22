@@ -90,10 +90,13 @@ h2{
     margin: 20px 0;
 }
 
+main{
+    font-size: 16pt;
+}
+
 main p{
     max-width: 600px;
     display: inline-block;
-    font-size: 16pt;
     margin: 13px auto;
     text-align: left;
     padding: 0px 10px;
@@ -111,7 +114,7 @@ main img{
 }
 
 .matt{
-    border: 3px solid #444;
+    border: 3px solid #555;
     border-radius: 50%;
     width: 50%;
     filter: grayscale(50%);
@@ -153,7 +156,7 @@ main img{
     color: inherit;
 }
 
-@media only screen and (min-width: 820px){
+@media only screen and (min-width: 1300px){
     nav li{
         margin: 0px 60px;
         font-size: 24pt;
@@ -177,7 +180,7 @@ main img{
         position: relative;
         max-width: 800px;
         text-align: left;
-        padding: 50px 0px;
+        padding: 70px 0px 120px 0px;
     }
 
     .about-p{
@@ -190,11 +193,13 @@ main img{
         left: 70%;
         top:50%;
         margin-left: 20px;
-        transform:translateY(-55%); /*bumping up a little*/
+        transform:translateY(-65%); /*bumping up a little*/
     }
 
     main img{
         max-width: 800px;
+        max-height: 600px;
+        box-shadow: 7px 10px 15px -7px #444;
     }
 
     .section-title{
@@ -202,6 +207,63 @@ main img{
     }
 
     .project-title{
-        font-size: 38pt;
+        font-size: 46pt;
+        text-align: center;
+    }
+
+    .project{
+        position: relative;
+        text-align: left;
+        height: 600px;
+        width: 80%;
+        display: inline-block;
+        margin: 50px 0px 150px 0px;
+    }
+
+    .project-description-container{
+        width: 50%;
+        height: 100%;
+        position: relative;
+    }
+
+    .project-description{
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        text-align: center;
+    }
+
+    .project-description p{
+        display: block;
+    }
+
+    .project-description ul{
+        margin-top: 20px;
+        list-style-type: square;
+        display: inline-block;      
+    }
+
+    .project-description li{
+        text-align: left;
+        padding-left: 3px;
+    }
+
+    .project-image{
+        width: 50%;
+        position: absolute;
+        left: 50%;
+        top: 30%;
+    }
+
+    .winrate-image{
+        top: 7%;
+    }
+
+    .contact{
+        margin-bottom: 70px;
+    }
+
+    .contact-links{
+        padding-top: 30px;
     }
 }
