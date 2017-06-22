@@ -53,6 +53,7 @@ h2{
     font-weight: bold;
     font-size: 18pt;
     letter-spacing: 20px;
+    margin-right: -20px; /*removes spacing from last letter*/
 }
 
 .technologies{
