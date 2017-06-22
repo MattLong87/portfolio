@@ -143,6 +143,19 @@ main img{
     margin-bottom: 10px;
 }
 
+
+.project-description ul{
+    margin-top: 20px;
+    list-style-type: square;
+    display: inline-block;      
+}
+
+.project-description li{
+    text-align: left;
+    padding-left: 3px;
+}
+
+
 .contact{
     margin-bottom: 20px;
 }
@@ -240,17 +253,6 @@ main img{
 
     .project-description p{
         display: block;
-    }
-
-    .project-description ul{
-        margin-top: 20px;
-        list-style-type: square;
-        display: inline-block;      
-    }
-
-    .project-description li{
-        text-align: left;
-        padding-left: 3px;
     }
 
     .project-image{
