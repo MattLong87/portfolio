@@ -110,6 +110,19 @@ main img{
     box-shadow: 0px 10px 15px -7px #444;
 }
 
+.matt{
+    border: 3px solid #444;
+    border-radius: 50%;
+    width: 50%;
+    filter: grayscale(50%);
+    transition: filter .2s ease;
+    margin: 10px 0;
+}
+
+.matt:hover{
+    filter: grayscale(10%);
+}
+
 .no-shadow{
     box-shadow: none;
 }
@@ -147,10 +160,35 @@ main img{
     }
 
     h1{
-        padding: 100px 0px 70px;
+        padding: 150px 0px 100px;
+        font-size: 120pt;
+    }
+
+    h2{
+        font-size: 46pt;
     }
 
     header{
         height: 80vh;
+    }
+
+    .about-p{
+        width: 70%;
+    }
+
+    .matt{
+        width: 30%;
+    }
+
+    main img{
+        max-width: 800px;
+    }
+
+    .section-title{
+        font-size: 46pt;
+    }
+
+    .project-title{
+        font-size: 38pt;
     }
 }
