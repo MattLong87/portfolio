@@ -55,6 +55,10 @@ h2{
     letter-spacing: 20px;
 }
 
+.technologies{
+    padding: 70px 0;
+}
+
 .tech-icon{
     max-height: 80%;
     max-width: 80%;
@@ -252,10 +256,6 @@ main img{
 
     h2{
         font-size: 46pt;
-    }
-
-    header{
-        height: 80vh;
     }
 
     .about-container{
