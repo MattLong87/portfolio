@@ -12,7 +12,7 @@ body{
     
 nav{
     height: 70px;
-    background: #99cc00;
+    background: #4f8d90;
     color: #fff;
     box-shadow: 0px 3px 25px 0px #555;
     position: relative;
@@ -29,11 +29,15 @@ nav li{
 }
 
 header{
-    background: #00a8c6;
+    background: #66BB6A;
     height: 90vh;
     color: #fff;
     box-shadow: 0px 3px 25px 0px #333;
     margin-bottom: -20px;
+}
+
+.contact{
+    background: #66BB6A;
 }
 
 h1{
@@ -71,7 +75,6 @@ h2{
 
 .icon-container{
     display: inline-block;
-    background: #00a8c6;
     border: 3px solid #fff;
     border-radius: 5px;
     height: 60px;
@@ -193,7 +196,8 @@ main img{
 
 
 .contact{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
+    background: #66BB6A;
 }
 
 .contact-links{
@@ -333,7 +337,7 @@ main img{
     }
 
     .contact{
-        margin-bottom: 70px;
+        padding-bottom: 70px;
     }
 
     .contact-links{
