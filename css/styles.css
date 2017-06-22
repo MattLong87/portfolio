@@ -172,12 +172,25 @@ main img{
         height: 80vh;
     }
 
+    .about-container{
+        display: inline-block;
+        position: relative;
+        max-width: 800px;
+        text-align: left;
+        padding: 50px 0px;
+    }
+
     .about-p{
         width: 70%;
     }
 
     .matt{
         width: 30%;
+        position: absolute;
+        left: 70%;
+        top:50%;
+        margin-left: 20px;
+        transform:translateY(-55%); /*bumping up a little*/
     }
 
     main img{
