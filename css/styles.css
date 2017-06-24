@@ -139,6 +139,12 @@ h2{
     margin: 20px 0;
 }
 
+hr{
+    width: 80%;
+    background-color: #4f8d90;
+    height: 2px;
+}
+
 main{
     font-size: 16pt;
 }
