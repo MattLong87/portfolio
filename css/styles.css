@@ -16,7 +16,7 @@ nav{
     background: #4f8d90;
     color: #fff;
     box-shadow: 0px 3px 25px 0px #555;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 1;
 }
