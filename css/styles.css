@@ -1,3 +1,4 @@
+/*Mobile-first: phone screens and universal styles*/
 *{
     box-sizing: border-box;
 }
@@ -50,7 +51,7 @@ h1{
     font-family: 'Patua One', cursive;
     font-size: 20vw;
     padding: 80px 0px 70px;
-    text-shadow: 0px 2px 5px #666;
+    text-shadow: 0px 2px 7px #666;
     line-height: 1;
 }
 
@@ -70,7 +71,7 @@ h2{
 }
 
 .technologies{
-    padding: 70px 0;
+    padding: 40px 0;
 }
 
 .tech-icon{
@@ -86,8 +87,8 @@ h2{
     display: inline-block;
     border: 3px solid #fff;
     border-radius: 5px;
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     position: relative;
 }
 
@@ -210,7 +211,6 @@ main img{
     padding-left: 3px;
 }
 
-
 .contact{
     padding-bottom: 20px;
     background: #66BB6A;
@@ -230,6 +230,7 @@ main img{
     color: inherit;
 }
 
+/* Tablets/some laptop screens */
 @media only screen and (min-width: 600px) and (max-width: 1300px){
     header{
         height: 800px;
@@ -248,6 +249,20 @@ main img{
     h2{
         font-size: 50pt;
     }
+
+    .icons-second-row{
+        display: inline;
+    }
+
+    .icon-container{
+        height: 60px;
+        width: 60px;
+    }
+
+    .technologies{
+        padding: 70px 0;
+    }
+
 
     .matt{
         max-width: 300px;
@@ -283,6 +298,7 @@ main img{
     }
 }
 
+/* Largest screens */
 @media only screen and (min-width: 1300px){
     header{
         height: 1200px;
@@ -300,6 +316,19 @@ main img{
 
     h2{
         font-size: 46pt;
+    }
+
+    .icons-second-row{
+        display: inline;
+    }
+
+    .icon-container{
+        height: 70px;
+        width: 70px;
+    }
+
+    .technologies{
+        padding: 70px 0;
     }
 
     .about-container{
