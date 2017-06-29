@@ -16,7 +16,7 @@ nav{
     background: #4f8d90;
     color: #fff;
     box-shadow: 0px 3px 25px 0px #555;
-    position: relative;
+    position: fixed;
     width: 100%;
     z-index: 1;
 }
@@ -219,7 +219,6 @@ main img{
 .social-congress .project-title, .chronomeal-api .project-title{
     margin-bottom: 10px;
 }
-
 
 .project-description ul{
     margin-top: 20px;
