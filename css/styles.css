@@ -141,6 +141,12 @@ h2{
     margin: 20px 0;
 }
 
+.project-link{
+    margin: 0px 10px;
+    font-size: 20pt;
+    padding: 5px 0px;
+}
+
 hr{
     width: 80%;
     background-color: #4f8d90;
