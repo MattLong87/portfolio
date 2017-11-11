@@ -58,11 +58,13 @@ h1{
 
 h2{
     font-size: 13vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 .full-stack{
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 18pt;
     letter-spacing: 20px;
 }
@@ -357,7 +359,7 @@ main img{
     }
 
     h1{
-        padding: 300px 0px 200px;
+        padding: 300px 0px 150px;
         font-size: 120pt;
     }
 
@@ -375,7 +377,7 @@ main img{
     }
 
     .technologies{
-        padding: 100px 0;
+        padding: 150px 0;
     }
 
     .about-container{
