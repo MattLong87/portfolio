@@ -285,6 +285,12 @@ main img{
     margin-right: 20px;
 }
 
+.preload-arden{
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+}
+
 /* Tablets/some laptop screens */
 @media only screen and (min-width: 600px) and (max-width: 1300px){
     header{
